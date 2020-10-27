@@ -10,7 +10,6 @@ public class DiskUtil {
 
     /**
      * 获取硬盘ID，硬盘总容量和和实时占用率
-     * @return 返回一个二维List，每个List<String>的第一个是磁盘id，第二个是总容量，第三个是占用率
      */
     public static List<List<String>> getDiskInfo()
     {
